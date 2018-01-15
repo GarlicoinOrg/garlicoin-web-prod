@@ -6,23 +6,13 @@
 	<title>Garlicoin</title>
 
 	<link href="img/logoLight.png" rel="icon" type="image/x-icon" />
-
-	<script src="js/jquery.js"></script>
-	<script defer src="https://use.fontawesome.com/releases/v5.0.2/js/all.js"></script>
-
-	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-	<link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
-
 	<link rel="stylesheet" href="main.css">
+
+	<script defer src="https://use.fontawesome.com/releases/v5.0.2/js/all.js"></script>
 	<script src="js/jquery.js"></script>
 </head>
 
 <body bgcolor="#373737">
-
-<div class="navLogoContainer">
-	<img src="img/logoLight.png"/>
-	<p>garlicoin</p>
-</div>
 
 <div id="smallScreenNav">
 	<ul>
@@ -31,14 +21,16 @@
 		<li><a href="#page3">Features</a></li>
 		<li><a href="#page4">Downloads</a></li>
 		<li><a href="#page5">Resources</a></li>
-		<!--<li><a href="#page6">Another Link</a></li>-->
 	</ul>
 </div>
 
 <div class="nav">
-	<img src="img/logoLight.png"/>
+	<span class="navLogoContainer">
+		<img src="img/logoLight.png"/>
+		<span>garlicoin</span>
+	</span>
 	<ul>
-		<li class="active"><a href="#page1">Home</a></li>
+		<li class="active"><a href="#home">Home</a></li>
 		<li><a href="#page2">About</a></li>
 		<li><a href="#page3">Features</a></li>
 		<li><a href="#page4">Downloads</a></li>
@@ -47,47 +39,21 @@
 	<i class="fa fa-bars fa-2x hamburger" aria-hidden="true" onclick="on()"></i>
 </div>
 
-<div id="page1" class="page" style="background-image: url('img/garlicoinJumboBG.png')">
-	<div id="mainBanner">
+<div id="home" class="mainBanner" style="background-image: url('img/garlicoinJumboBG.png')">
+	<div>
 		<img src="img/logoBanner.png" id="logoBanner"/>
-		<h2>Garlicoin is the new, friendly, decentralized cryptocurrency that you've never heard of.</h2>
+		<h1>Garlicoin is the new, friendly, decentralized cryptocurrency that you've never heard of.</h1>
 		<a href="#page4">GET STARTED</a>
 	</div>
-
-	<!-- TradingView Widget BEGIN -->
-	<!--<div id="tv-medium-widget-0c2df"></div>-->
-	<!--<script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>-->
-	<!--<script type="text/javascript">-->
-	<!--new TradingView.MediumWidget({-->
-	<!--"container_id": "tv-medium-widget-0c2df",-->
-	<!--"symbols": [-->
-	<!--[-->
-	<!--"GarliCoin",-->
-	<!--"BITTREX:DOGEBTC"-->
-	<!--]-->
-	<!--],-->
-	<!--"greyText": "Garlicoin supported by",-->
-	<!--"gridLineColor": "#e9e9ea",-->
-	<!--"fontColor": "#83888D",-->
-	<!--"underLineColor": "#dbeffb",-->
-	<!--"trendLineColor": "#4bafe9",-->
-	<!--"width": "100vw",-->
-	<!--"height": "500px",-->
-	<!--"locale": "en",-->
-	<!--"interval": "1",-->
-	<!--"chartOnly": true-->
-	<!--});-->
-	<!--</script>-->
-	<!-- TradingView Widget END -->
 </div>
 
-<div class="page" id="page2">
+<div id="page2" class="description section">
 	<h1 class="title">Fresh out of the oven: Garlicoin</h1>
 	<h2>Garlicoin is a new, freshly baked cryptocurrency, born from the shitposts of Reddit.</h2>
 	<p>On December 25, 2017, Reddit user u/DigitalizedOrange presented his dream to the newly-found Garlicoin community: to create a cryptocurrency to revolutionize the memecoin market. Shortly there-after, the community exploded into praise. Est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus.</p>
 </div>
 
-<div id="page3" class="page">
+<div id="page3" class="features section">
 	<h1 class="title">Baked with our special ingredient, copy/paste&trade;</h1>
 	<h2>Hot out of the oven, and with a boast of features identical to and present in countless other cryptocurrencies.</h2>
 	<div id="featureBoxContainer">
@@ -133,43 +99,43 @@
 	</div>
 </div>
 
-<div class="page" id="page4">
-	<h1 class="title">Downloads</h1>
+<div id="page4" class="downloads section">
+	<h1 class="titleL">Downloads</h1>
 
-	<div class="downloads">
+	<div>
 		<div class="downloadBtn">
-			<i class="fab fa-apple fa-3x" aria-hidden="true" style="color:white;"></i>
-			<h2>Download for macOS</h2>
+			<i class="fab fa-apple fa-3x" aria-hidden="true"></i>
+			<span>Download for macOS</span>
 		</div>
 
 		<div class="downloadBtn">
-			<i class="fab fa-windows fa-3x" aria-hidden="true" style="color:white;"></i>
-			<h2>Download for Windows</h2>
+			<i class="fab fa-windows fa-3x" aria-hidden="true"></i>
+			<span>Download for Windows</span>
 		</div>
 
 		<div class="downloadBtn">
-			<i class="fab fa-linux fa-3x" aria-hidden="true" style="color:white;"></i>
-			<h2>Download for Linux</h2>
+			<i class="fab fa-linux fa-3x" aria-hidden="true"></i>
+			<span>Download for Linux</span>
 		</div>
 
 		<div class="downloadBtn">
-			<i class="fab fa-android fa-3x" aria-hidden="true" style="color:white;"></i>
-			<h2>Download for Android</h2>
+			<i class="fab fa-android fa-3x" aria-hidden="true"></i>
+			<span>Download for Android</span>
 		</div>
 
 		<div class="downloadBtn">
-			<i class="fa fa-folder fa-3x" aria-hidden="true" style="color:white;"></i>
-			<h2>Download for Electrum</h2>
+			<i class="fa fa-folder fa-3x" aria-hidden="true"></i>
+			<span>Download for Electrum</span>
 		</div>
 
 		<div class="downloadBtn">
-			<i class="fab fa-github fa-3x" aria-hidden="true" style="color:white;"></i>
-			<h2>Download Source Code</h2>
+			<i class="fab fa-github fa-3x" aria-hidden="true"></i>
+			<span>Download Source Code</span>
 		</div>
 	</div>
 </div>
 
-<div class="page" id="page5">
+<div id="page5" class="resources section">
 	<h1 class="title">Ready for Life</h1>
 	<h2>With a host of online resources, Garlicoin is ready for real-world implementation.</h2>
 	<div class="band">
