@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[5],{147:function(e,n,t){"use strict";t.r(n);var a=t(0),o=t.n(a),l=t(37),r=t(155);n.default=function(){return o.a.createElement(r.a,{wrapper:"notfound"},o.a.createElement("h1",null,"You seem to be lost"),o.a.createElement("h3",null,o.a.createElement(l.Link,{to:"/",className:"routeLink"},"Follow the trail of garlicoin back home.")))}}}]);
+//# sourceMappingURL=component---src-pages-404-js-698138079b743ea6e7b4.js.map
